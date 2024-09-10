@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+
+    
+}
+.container{
+    height:800px;
+    width:100%;
+    background-color: blueviolet;
+    animation: changeBg 20s linear infinite;
+}
+@keyframes changeBg{
+    0%{background-color: blueviolet;}
+    20%{background-color: red;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: brown;}
+    100%{background-color: palevioletred;}
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+    margin: 15px 50px;
+}
+nav{ 
+    flex: 1;
+    text-align: center;
+    margin-top: 50px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+
+}
+ul li a:hover{
+    color: aqua;
+}
+.row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 152px;
+    left: 157px;
+}
+.col-1{
+    flex-basis: 45%;
+    position: relative;
+    margin-left: 85px;
+}
+.col-1 h1{
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 75px;
+    text-align: left;
+    margin-bottom: 0%;
+    margin-top: 100px;
+    color: white;
+}
+.col-1 h1:hover{
+    color: aqua;
+}
+.col-1-content{
+    width: 404px;
+    height: 91px;
+    margin-top: 20px;
+    color:white;   ;
+}
+.col-1 h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    border-style: inherit;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.btn1:hover{
+    background-color: aqua;
+    color: black;
+    font-size: 17px;
+
+
+}
+.btn2{
+    width: 300px;
+    height: 50px;
+    border-style: inherit;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+
+}
+.btn2:hover{
+    background-color: aqua;
+    color: black;
+    font-size: 17px;
+
+
+}
+.fa-solid:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.demo{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.img{
+    margin-top:-500px ;
+    padding-left: 700px;
+    transition: all;
+    animation-name:logo 20s linear infinite;
+    
+}
+@keyframes logo{
+    0%{background-image: url(./image/img1.png);}
+    20%{background-image: url(./image/im2.png);}
+    40%{background-image: url(./image/img3.png);}
+    60%{background-color: green;}
+    80%{background-color: brown;}
+    100%{}
+
+}
+
+}
+
